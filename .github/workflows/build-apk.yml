@@ -24,8 +24,8 @@ jobs:
       # === مهم: وارد پوشه پروژه شو ===
       - name: Move to project directory
         run: |
-          echo "Project is inside: AndroidProject"   # نام پوشه را عوض کن
-          cd AndroidProject                          # ←←← اینجا نام پوشه پروژه‌ات رو بنویس
+          echo "Project is inside: 02.AndroidWebviewOfflineAppTemplate"   # نام پوشه را عوض کن
+          cd 02.AndroidWebviewOfflineAppTemplate                          # ←←← اینجا نام پوشه پروژه‌ات رو بنویس
 
       - name: Grant execute permission for gradlew
         run: chmod +x ./gradlew
